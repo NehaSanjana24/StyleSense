@@ -34,6 +34,7 @@ from pages.style_guide import style_guide_page
 from pages.planner import planner_page
 from pages.favorites import favorites_page
 from pages.about import about_page
+from pages.admin import admin_page
 
 # ================= HEADER ================= #
 
@@ -87,3 +88,5 @@ elif page == "❤️ Favorites":
 
 elif page == "ℹ️ About":
     about_page()
+elif page == "🛠 Admin":
+    admin_page()

@@ -4,27 +4,35 @@ from utils.favorites import save_favorite
 
 def outfit_card(score, outfit, index):
 
-    left, right = st.columns([1, 2])
+    st.markdown(f"""
+    <div style="
+        background:rgba(255,255,255,.08);
+        padding:25px;
+        border-radius:20px;
+        margin-bottom:20px;
+        border:1px solid rgba(255,255,255,.15);
+    ">
+        <h2>⭐ Match Score: {score}%</h2>
 
-    with left:
+        <p><b>👕 Top:</b> {outfit['top']}</p>
+
+        <p><b>👖 Bottom:</b> {outfit['bottom']}</p>
+
+        <p><b>👟 Shoes:</b> {outfit['shoes']}</p>
+
+        <p><b>👜 Accessories:</b> {outfit['accessory']}</p>
+
+        <p>💡 {outfit['tip']}</p>
+
+    </div>
+    """, unsafe_allow_html=True)
+
+    col1, col2 = st.columns([2, 1])
+
+    with col1:
         st.image(outfit["image"], use_container_width=True)
 
-    with right:
-
-        st.subheader(f"⭐ Match Score: {score}%")
-
-        st.write(f"👕 **Top:** {outfit['top']}")
-        st.write(f"👖 **Bottom:** {outfit['bottom']}")
-        st.write(f"👟 **Shoes:** {outfit['shoes']}")
-        st.write(f"👜 **Accessories:** {outfit['accessory']}")
-
-        st.success(outfit["tip"])
-
-        if st.button(
-            "❤️ Save Outfit",
-            key=f"save_{index}_{outfit['top']}"
-        ):
+    with col2:
+        if st.button("❤️ Save Outfit", key=f"save_{index}"):
             save_favorite(outfit)
-            st.success("Added to Favorites!")
-
-    st.divider()
+            st.success("Saved!")
