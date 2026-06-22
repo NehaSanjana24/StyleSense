@@ -1,0 +1,98 @@
+[
+  {
+    "gender": "Female",
+    "style": "Casual",
+    "occasion": "College",
+    "budget": "Low",
+    "top": "White Oversized T-Shirt",
+    "bottom": "Blue Mom Jeans",
+    "shoes": "White Sneakers",
+    "accessory": "Canvas Backpack",
+    "tip": "Roll up your sleeves and keep accessories minimal.",
+    "image": "assets/casual.jpg"
+  },
+  {
+    "gender": "Female",
+    "style": "Casual",
+    "occasion": "Travel",
+    "budget": "Medium",
+    "top": "Beige Hoodie",
+    "bottom": "Black Joggers",
+    "shoes": "Running Shoes",
+    "accessory": "Crossbody Bag",
+    "tip": "Wear comfortable layers for long trips.",
+    "image": "assets/casual.jpg"
+  },
+  {
+    "gender": "Female",
+    "style": "Formal",
+    "occasion": "Office",
+    "budget": "Medium",
+    "top": "White Formal Shirt",
+    "bottom": "Black Trousers",
+    "shoes": "Black Pumps",
+    "accessory": "Silver Watch",
+    "tip": "Choose subtle accessories.",
+    "image": "assets/formal.jpg"
+  },
+  {
+    "gender": "Female",
+    "style": "Formal",
+    "occasion": "Party",
+    "budget": "High",
+    "top": "Black Blazer",
+    "bottom": "Pencil Skirt",
+    "shoes": "Heels",
+    "accessory": "Pearl Necklace",
+    "tip": "A blazer adds elegance.",
+    "image": "assets/formal.jpg"
+  },
+  {
+    "gender": "Male",
+    "style": "Casual",
+    "occasion": "College",
+    "budget": "Low",
+    "top": "Black T-Shirt",
+    "bottom": "Blue Jeans",
+    "shoes": "White Sneakers",
+    "accessory": "Backpack",
+    "tip": "A simple watch completes the look.",
+    "image": "assets/casual.jpg"
+  },
+  {
+    "gender": "Male",
+    "style": "Casual",
+    "occasion": "Travel",
+    "budget": "Medium",
+    "top": "Olive Hoodie",
+    "bottom": "Cargo Pants",
+    "shoes": "Sports Shoes",
+    "accessory": "Cap",
+    "tip": "Comfort comes first while travelling.",
+    "image": "assets/casual.jpg"
+  },
+  {
+    "gender": "Male",
+    "style": "Formal",
+    "occasion": "Office",
+    "budget": "High",
+    "top": "Navy Blazer",
+    "bottom": "Grey Formal Pants",
+    "shoes": "Brown Leather Shoes",
+    "accessory": "Leather Belt",
+    "tip": "Match your belt with your shoes.",
+    "image": "assets/formal.jpg"
+  },
+  {
+    "gender": "Male",
+    "style": "Formal",
+    "occasion": "Party",
+    "budget": "High",
+    "top": "Black Suit",
+    "bottom": "Slim Fit Trousers",
+    "shoes": "Oxford Shoes",
+    "accessory": "Luxury Watch",
+    "tip": "A pocket square elevates the outfit.",
+    "image": "assets/formal.jpg"
+  }
+]

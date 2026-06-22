@@ -1,0 +1,55 @@
+/* Background */
+.stApp{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 30px;
+    margin-bottom:20px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(12px);
+}
+
+/* Logo */
+.logo{
+    font-size:32px;
+    font-weight:700;
+}
+
+/* Tagline */
+.tagline{
+    color:#f9a8d4;
+    font-size:18px;
+}
+
+/* Buttons */
+.stButton>button{
+    border-radius:14px;
+    font-weight:600;
+    width:100%;
+}
+
+/* Images */
+img{
+    border-radius:18px;
+}
+
+/* Cards */
+div[data-testid="stVerticalBlock"]{
+    border-radius:16px;
+}
+
+/* Hide Streamlit footer */
+footer{
+    visibility:hidden;
+}
+
+#MainMenu{
+    visibility:hidden;
+}
